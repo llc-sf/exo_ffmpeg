@@ -1,0 +1,14 @@
+ninja: Entering directory `/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/.cxx/Debug/6n48353i/arm64-v8a'
+[1/2] Building CXX object CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o
+clang-12: warning: -Wl,-Bsymbolic: 'linker' input unused [-Wunused-command-line-argument]
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:111:3: warning: 'avcodec_register_all' is deprecated [-Wdeprecated-declarations]
+  avcodec_register_all();
+  ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/libavcodec/avcodec.h:4158:1: note: 'avcodec_register_all' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+1 warning generated.
+[2/2] Linking CXX shared library /Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/buildout/intermediates/cxx/Debug/6n48353i/obj/arm64-v8a/libffmpegJNI.so

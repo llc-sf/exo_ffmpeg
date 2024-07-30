@@ -1,0 +1,97 @@
+ninja: Entering directory `/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/.cxx/RelWithDebInfo/5t5m6q4v/x86_64'
+[1/2] Building CXX object CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o
+FAILED: CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o 
+/Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --gcc-toolchain=/Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64 --sysroot=/Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DffmpegJNI_EXPORTS -I/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -O2 -g -DNDEBUG -fPIC -std=gnu++11 -MD -MT CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o -MF CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o.d -o CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o -c /Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc
+In file included from /Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:16:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdlib:85:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdlib.h:100:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/math.h:311:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/type_traits:417:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstddef:37:
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/version:1:1: error: expected unqualified-id
+6.0.1
+^
+In file included from /Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:16:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdlib:85:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdlib.h:100:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/math.h:311:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/type_traits:418:
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/version:1:1: error: expected unqualified-id
+6.0.1
+^
+In file included from /Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:16:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/cstdlib:85:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/stdlib.h:100:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/math.h:312:
+In file included from /Users/chenlu/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/c++/v1/limits:121:
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/version:1:1: error: expected unqualified-id
+6.0.1
+^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:70:25: error: unknown type name 'JNIEnv'
+AVCodec *getCodecByName(JNIEnv *env, jstring codecName);
+                        ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:70:38: error: unknown type name 'jstring'
+AVCodec *getCodecByName(JNIEnv *env, jstring codecName);
+                                     ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:77:31: error: unknown type name 'JNIEnv'
+AVCodecContext *createContext(JNIEnv *env, AVCodec *codec, jbyteArray extraData,
+                              ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:77:60: error: unknown type name 'jbyteArray'
+AVCodecContext *createContext(JNIEnv *env, AVCodec *codec, jbyteArray extraData,
+                                                           ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:78:31: error: unknown type name 'jboolean'
+                              jboolean outputFloat, jint rawSampleRate,
+                              ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:78:53: error: unknown type name 'jint'
+                              jboolean outputFloat, jint rawSampleRate,
+                                                    ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:79:31: error: unknown type name 'jint'
+                              jint rawChannelCount);
+                              ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:104:1: error: unknown type name 'jint'
+jint JNI_OnLoad(JavaVM *vm, void *reserved) {
+^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:104:17: error: unknown type name 'JavaVM'
+jint JNI_OnLoad(JavaVM *vm, void *reserved) {
+                ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:105:3: error: unknown type name 'JNIEnv'
+  JNIEnv *env;
+  ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:106:51: error: use of undeclared identifier 'JNI_VERSION_1_6'
+  if (vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION_1_6) != JNI_OK) {
+                                                  ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:106:71: error: use of undeclared identifier 'JNI_OK'
+  if (vm->GetEnv(reinterpret_cast<void **>(&env), JNI_VERSION_1_6) != JNI_OK) {
+                                                                      ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:109:3: warning: 'avcodec_register_all' is deprecated [-Wdeprecated-declarations]
+  avcodec_register_all();
+  ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/libavcodec/avcodec.h:4158:1: note: 'avcodec_register_all' has been explicitly marked deprecated here
+attribute_deprecated
+^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg/libavutil/attributes.h:94:49: note: expanded from macro 'attribute_deprecated'
+#    define attribute_deprecated __attribute__((deprecated))
+                                                ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:110:10: error: use of undeclared identifier 'JNI_VERSION_1_6'
+  return JNI_VERSION_1_6;
+         ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:113:1: error: unknown type name 'JNIEXPORT'
+LIBRARY_FUNC(jstring, ffmpegGetVersion) {
+^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:39:3: note: expanded from macro 'LIBRARY_FUNC'
+  JNIEXPORT RETURN_TYPE                                                   \
+  ^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:113:1: error: expected ';' after top level declarator
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:40:7: note: expanded from macro 'LIBRARY_FUNC'
+      Java_com_google_android_exoplayer2_ext_ffmpeg_FfmpegLibrary_##NAME( \
+      ^
+<scratch space>:295:1: note: expanded from here
+Java_com_google_android_exoplayer2_ext_ffmpeg_FfmpegLibrary_ffmpegGetVersion
+^
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:113:1: error: unknown type name 'JNIEXPORT'
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc:43:3: note: expanded from macro 'LIBRARY_FUNC'
+  JNIEXPORT RETURN_TYPE                                                   \
+  ^
+fatal error: too many errors emitted, stopping now [-ferror-limit=]
+1 warning and 20 errors generated.
+ninja: build stopped: subcommand failed.

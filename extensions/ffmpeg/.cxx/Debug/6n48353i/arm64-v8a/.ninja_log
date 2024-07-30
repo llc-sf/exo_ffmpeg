@@ -1,0 +1,7 @@
+# ninja log v5
+0	4	0	clean	80d065eee1af391e
+0	4	0	clean	80d065eee1af391e
+0	343	1722307904552019600	CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o	c1a33fc22c5fabd6
+344	569	1722307904766693362	/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/buildout/intermediates/cxx/Debug/6n48353i/obj/arm64-v8a/libffmpegJNI.so	afbc5546f194dfcd
+1	231	1722309258959284711	CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o	c1a33fc22c5fabd6
+232	400	1722309259119935625	/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/buildout/intermediates/cxx/Debug/6n48353i/obj/arm64-v8a/libffmpegJNI.so	afbc5546f194dfcd

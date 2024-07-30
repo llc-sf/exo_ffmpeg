@@ -1,0 +1,7 @@
+Executable : /Users/chenlu/Library/Android/sdk/cmake/3.22.1/bin/ninja
+arguments : 
+-C
+/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/.cxx/Debug/w4j4r71v/x86
+ffmpegJNI
+jvmArgs : 
+

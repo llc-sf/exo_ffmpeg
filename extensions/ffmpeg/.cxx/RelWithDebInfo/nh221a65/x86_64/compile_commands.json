@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/.cxx/RelWithDebInfo/nh221a65/x86_64",
+  "command": "/Users/chenlu/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android21 --sysroot=/Users/chenlu/Library/Android/sdk/ndk/23.1.7779620/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DffmpegJNI_EXPORTS -I/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security -fexceptions -frtti -stdlib=libc++ -O2 -g -DNDEBUG -fPIC -std=gnu++11 -o CMakeFiles/ffmpegJNI.dir/ffmpeg_jni.cc.o -c /Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc",
+  "file": "/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg_jni.cc"
+}
+]
