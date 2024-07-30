@@ -14,3 +14,16 @@ guide and script][] to move your codebase to the Media3 package names.
 
 [AndroidX Media3]: https://github.com/androidx/media
 [migration guide and script]: https://developer.android.com/guide/topics/media/media3/getting-started/migration-guide
+
+
+NDK_PATH="/Users/chenlu/Library/Android/sdk/ndk/21.1.6352462"
+
+FFMPEG_PATH="/Users/chenlu/work/exo/ExoPlayer-release-v2/extensions/ffmpeg/src/main/jni/ffmpeg"
+
+ANDROID_ABI=21
+
+ENABLED_DECODERS=(vorbis opus flac alac mp3 aac ac3 eac3 ape)
+
+cd "${FFMPEG_MODULE_PATH}/jni" && \
+./build_ffmpeg.sh \
+"${FFMPEG_MODULE_PATH}" "${NDK_PATH}" "${HOST_PLATFORM}" "${ENABLED_DECODERS[@]}"
